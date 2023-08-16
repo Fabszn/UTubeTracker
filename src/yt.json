@@ -1,0 +1,55 @@
+{
+  "kind": "youtube#channelListResponse",
+  "etag": "tKFWjjqlags11kP5thKk2vCAJxQ",
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 5
+  },
+  "items": [
+    {
+      "kind": "youtube#channel",
+      "etag": "RP0GixC4ecS2gRRsdL_Gi8Tw9x4",
+      "id": "UCUJKiwP7T5krMK-rVkPx11w",
+      "snippet": {
+        "title": "un MAX de FOOT",
+        "description": "Des histoires et des subtilités dans les secrets bien gardés du beautiful game ⚽️\n",
+        "customUrl": "@unmaxdefoot",
+        "publishedAt": "2020-05-16T19:18:01.580796Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/ezff-0JPe5k6ymBeROK0jOq_hmwBT4ldp_xhzzaKCHeYiBIcM-dXtCpN-F9pEL3xr4agGqJY=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/ezff-0JPe5k6ymBeROK0jOq_hmwBT4ldp_xhzzaKCHeYiBIcM-dXtCpN-F9pEL3xr4agGqJY=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/ezff-0JPe5k6ymBeROK0jOq_hmwBT4ldp_xhzzaKCHeYiBIcM-dXtCpN-F9pEL3xr4agGqJY=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "un MAX de FOOT",
+          "description": "Des histoires et des subtilités dans les secrets bien gardés du beautiful game ⚽️\n"
+        },
+        "country": "GB"
+      },
+      "contentDetails": {
+        "relatedPlaylists": {
+          "likes": "",
+          "uploads": "UUUJKiwP7T5krMK-rVkPx11w"
+        }
+      },
+      "statistics": {
+        "viewCount": "35636558",
+        "subscriberCount": "249000",
+        "hiddenSubscriberCount": false,
+        "videoCount": "143"
+      }
+    }
+  ]
+}
