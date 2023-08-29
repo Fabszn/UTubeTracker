@@ -17,14 +17,16 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 }
 
 
-async fn youtube_request() -> Result<HashMap<String, String>, reqwest::Error> {
-    let t = reqwest::get(
-        "")
+async fn youtube_request() -> Result<i16, reqwest::Error> {
+    let reponse = reqwest::get("https://youtube.googleapis.com/youtube/v3/channels?part=snippet%2CcontentDetails%2Cstatistics&id=UCpH-VFo4_F2oMYiW8942mQw&key=")
         .await?
-        .json::<HashMap<String, String>>()
+        .json()
         .await?;
 
-    Ok(t)
+    let data = parse(&reponse).expect("parsing error");
+    let nbVideo = &data["items"][0]["statistics"]["videoCount"].as_i16().expect("convert to i16 error");
+
+    Ok(*nbVideo)
 }
 
 fn parse_json() {
@@ -32,7 +34,7 @@ fn parse_json() {
 
     let data = parse(&json).expect("parser error");
 
-    let count = &data["items"][0];
+    let count = &data["items"][0]["statistics"]["videoCount"];
 
     println!("{}", count);
     println!("Hello, world!");
