@@ -1,6 +1,6 @@
 {
   "kind": "youtube#channelListResponse",
-  "etag": "tKFWjjqlags11kP5thKk2vCAJxQ",
+  "etag": "RUIHdnGY0ZAhfa9PZ6oI6IntyBk",
   "pageInfo": {
     "totalResults": 1,
     "resultsPerPage": 5
@@ -8,47 +8,48 @@
   "items": [
     {
       "kind": "youtube#channel",
-      "etag": "RP0GixC4ecS2gRRsdL_Gi8Tw9x4",
-      "id": "UCUJKiwP7T5krMK-rVkPx11w",
+      "etag": "MHaTJ4bu9ZaaLi1e0Y7u9_ygP1Q",
+      "id": "UCpH-VFo4_F2oMYiW8942mQw",
       "snippet": {
-        "title": "un MAX de FOOT",
-        "description": "Des histoires et des subtilités dans les secrets bien gardés du beautiful game ⚽️\n",
-        "customUrl": "@unmaxdefoot",
-        "publishedAt": "2020-05-16T19:18:01.580796Z",
+        "title": "Up Rugby",
+        "description": "Hey ! Salut à toi et bienvenue !\nSur cette chaîne j'essaie de partager ce que je comprends de ce sport paradoxal dans lequel on doit avancer en se faisant des passes en arrière !\n\n\nPour plus de contenu original:\nInstagram: https://www.instagram.com/up_rugby/\nTikTok: https://www.tiktok.com/@uprugby\nYouTube pour joueurs et entraîneurs: https://www.youtube.com/@uprugbyexercicescoachingsk7401\n\nSi tu veux me soutenir n''hésites pas à:\nFaire un don: Paypal.me/uprugby\nFormation pour entraîneurs: www.up-rugby.fr\n\n",
+        "customUrl": "@uprugby",
+        "publishedAt": "2014-09-30T16:18:52Z",
         "thumbnails": {
           "default": {
-            "url": "https://yt3.ggpht.com/ezff-0JPe5k6ymBeROK0jOq_hmwBT4ldp_xhzzaKCHeYiBIcM-dXtCpN-F9pEL3xr4agGqJY=s88-c-k-c0x00ffffff-no-rj",
+            "url": "https://yt3.ggpht.com/dnZ9LKXkmmntIyRY2SGzby5WQsIMqSgxnWCZUGEJlPkF7SrIdftZlujWVmtORViymzqY6OdEHBY=s88-c-k-c0x00ffffff-no-rj",
             "width": 88,
             "height": 88
           },
           "medium": {
-            "url": "https://yt3.ggpht.com/ezff-0JPe5k6ymBeROK0jOq_hmwBT4ldp_xhzzaKCHeYiBIcM-dXtCpN-F9pEL3xr4agGqJY=s240-c-k-c0x00ffffff-no-rj",
+            "url": "https://yt3.ggpht.com/dnZ9LKXkmmntIyRY2SGzby5WQsIMqSgxnWCZUGEJlPkF7SrIdftZlujWVmtORViymzqY6OdEHBY=s240-c-k-c0x00ffffff-no-rj",
             "width": 240,
             "height": 240
           },
           "high": {
-            "url": "https://yt3.ggpht.com/ezff-0JPe5k6ymBeROK0jOq_hmwBT4ldp_xhzzaKCHeYiBIcM-dXtCpN-F9pEL3xr4agGqJY=s800-c-k-c0x00ffffff-no-rj",
+            "url": "https://yt3.ggpht.com/dnZ9LKXkmmntIyRY2SGzby5WQsIMqSgxnWCZUGEJlPkF7SrIdftZlujWVmtORViymzqY6OdEHBY=s800-c-k-c0x00ffffff-no-rj",
             "width": 800,
             "height": 800
           }
         },
+        "defaultLanguage": "fr",
         "localized": {
-          "title": "un MAX de FOOT",
-          "description": "Des histoires et des subtilités dans les secrets bien gardés du beautiful game ⚽️\n"
+          "title": "Up Rugby",
+          "description": "Hey ! Salut à toi et bienvenue !\nSur cette chaîne j'essaie de partager ce que je comprends de ce sport paradoxal dans lequel on doit avancer en se faisant des passes en arrière !\n\n\nPour plus de contenu original:\nInstagram: https://www.instagram.com/up_rugby/\nTikTok: https://www.tiktok.com/@uprugby\nYouTube pour joueurs et entraîneurs: https://www.youtube.com/@uprugbyexercicescoachingsk7401\n\nSi tu veux me soutenir n''hésites pas à:\nFaire un don: Paypal.me/uprugby\nFormation pour entraîneurs: www.up-rugby.fr\n\n"
         },
-        "country": "GB"
+        "country": "FR"
       },
       "contentDetails": {
         "relatedPlaylists": {
           "likes": "",
-          "uploads": "UUUJKiwP7T5krMK-rVkPx11w"
+          "uploads": "UUpH-VFo4_F2oMYiW8942mQw"
         }
       },
       "statistics": {
-        "viewCount": "35636558",
-        "subscriberCount": "249000",
+        "viewCount": "4541582",
+        "subscriberCount": "40400",
         "hiddenSubscriberCount": false,
-        "videoCount": "143"
+        "videoCount": "184"
       }
     }
   ]
