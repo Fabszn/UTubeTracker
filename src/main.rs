@@ -8,19 +8,15 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     
     #[derive(Debug, Deserialize, Serialize)]
     struct Video {
-        #[serde(path = "person_info.data.name")]
+        #[serde(default = "path")]
         id: String,
-        #[serde(path = "person_info.data.name")]
+        #[serde(default = "person_info.data.name")]
         title: String,
     }
 
-    let check = "toto";
-    let test = match check {
-        "toto" => "GO",
-        "titi" => "NO GO",
-        _ => "OUT",
-    };
-    println!("{}", test);
+    fn path() -> String {
+        "".to_string()
+    }
 
     let env_ytube_key = env::var("YOUTUBE_API_KEY");
 
