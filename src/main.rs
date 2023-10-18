@@ -40,6 +40,13 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     Ok(nb_video.to_string())
 }*/
 
+struct videos {
+    title:String,
+    description:String,
+    
+    
+}
+
 async fn video_by_channel_id_request(
     playlist_id: &str,
     youtube_key: &str,
@@ -52,7 +59,7 @@ async fn video_by_channel_id_request(
 
     let json_value: Value = serde_json::from_str(&reponse).expect("msg");
     //let json_data = serde_json::from_str(&reponse);
-    println!("data from request : {}", &json_value["kind"]);
+    println!("data from request : {}", &json_value["items"][0]["snippet"]["description"]);
     //let nb_video = &json_data["items"];
 
     Ok("nb_video.to_string()".to_string())

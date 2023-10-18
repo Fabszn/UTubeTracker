@@ -1,0 +1,372 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "utubetracker-build",
+        "directory": "/Users/fsznajderman/dev/projects/UTubeTracker/project",
+        "workspaceDir": "/Users/fsznajderman/dev/projects/UTubeTracker/project",
+        "sources": [
+            "/Users/fsznajderman/dev/projects/UTubeTracker/project/src/main/scala",
+            "/Users/fsznajderman/dev/projects/UTubeTracker/project/src/main/scala-2.12",
+            "/Users/fsznajderman/dev/projects/UTubeTracker/project/src/main/scala-2",
+            "/Users/fsznajderman/dev/projects/UTubeTracker/project/src/main/java",
+            "/Users/fsznajderman/dev/projects/UTubeTracker/project/src/main/scala-sbt-1.0",
+            "/Users/fsznajderman/dev/projects/UTubeTracker/project/target/scala-2.12/sbt-1.0/src_managed/main"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/lib/scala-library.jar",
+            "/Users/fsznajderman/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/orrsella/sbt-stats_2.12_1.0/1.0.7/sbt-stats-1.0.7.jar",
+            "/Users/fsznajderman/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.4.1/sbt-bloop-1.4.1.jar",
+            "/Users/fsznajderman/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/4.5.0/jna-4.5.0.jar",
+            "/Users/fsznajderman/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna-platform/4.5.0/jna-platform-4.5.0.jar",
+            "/Users/fsznajderman/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/code/gson/gson/2.7/gson-2.7.jar",
+            "/Users/fsznajderman/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/lib/scala-compiler.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/lib/scala-reflect.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/lib/scala-xml_2.12-2.1.0.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/zinc-core_2.12-1.9.3.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/zinc_2.12-1.9.3.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/jna-5.13.0.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/compiler-bridge_2.12-1.9.3.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/test-agent-1.9.4.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/zinc-lm-integration_2.12-1.9.4.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/slf4j-api-1.7.36.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/shaded-jawn-parser_2.12-0.9.1.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/zinc-apiinfo_2.12-1.9.3.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/jline-reader-3.19.0.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/util-tracking_2.12-1.9.4.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/log4j-api-2.17.1.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/zinc-compile-core_2.12-1.9.3.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/sbinary_2.12-0.5.1.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/error_prone_annotations-2.4.0.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/gigahorse-core_2.12-0.7.0.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/config-1.4.2.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/test-interface-1.0.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/completion_2.12-1.9.4.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/ivy-2.3.0-sbt-396a783bba347016e7fe30dacc60d355be607fe2.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/zinc-classfile_2.12-1.9.3.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/main_2.12-1.9.4.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/jline-terminal-3.19.0.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/librarymanagement-ivy_2.12-1.9.2.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/scala-library-2.12.18.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/sjson-new-core_2.12-0.9.1.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/util-position_2.12-1.9.4.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/gigahorse-apache-http_2.12-0.7.0.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/checker-qual-3.4.1.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/util-relation_2.12-1.9.4.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/caffeine-2.8.5.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/util-interface-1.9.4.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/sbt-1.9.4.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/log4j-core-2.17.1.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/zinc-compile_2.12-1.9.3.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/testing_2.12-1.9.4.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/log4j-slf4j-impl-2.17.1.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/librarymanagement-core_2.12-1.9.2.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/launcher-interface-1.4.2.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/jline-2.14.7-sbt-a1b0ffbb8f64bb820f4f84a0c07a0c0964507493.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/jline-terminal-jna-3.19.0.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/task-system_2.12-1.9.4.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/ssl-config-core_2.12-0.6.1.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/file-tree-views-2.1.10.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/util-cache_2.12-1.9.4.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/scala-collection-compat_2.12-2.10.0.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/actions_2.12-1.9.4.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/jline-terminal-jansi-3.19.0.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/scala-parser-combinators_2.12-1.1.2.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/command_2.12-1.9.4.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/zinc-persist-core-assembly-1.9.3.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/main-settings_2.12-1.9.4.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/reactive-streams-1.0.3.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/core-macros_2.12-1.9.4.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/util-control_2.12-1.9.4.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/jansi-2.1.0.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/scala-reflect-2.12.18.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/jna-platform-5.13.0.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/disruptor-3.4.2.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/jline-builtins-3.19.0.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/logic_2.12-1.9.4.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/collections_2.12-1.9.4.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/sjson-new-murmurhash_2.12-0.9.1.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/template-resolver-0.1.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/tasks_2.12-1.9.4.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/scripted-plugin_2.12-1.9.4.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/scala-compiler-2.12.18.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/sjson-new-scalajson_2.12-0.9.1.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/jsch-0.1.54.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/scala-xml_2.12-2.1.0.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/jline-style-3.19.0.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/compiler-interface-1.9.3.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/zero-allocation-hashing-0.10.1.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/lm-coursier-shaded_2.12-2.1.1.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/ipcsocket-1.6.2.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/protocol_2.12-1.9.4.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/io_2.12-1.9.1.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/zinc-classpath_2.12-1.9.3.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/util-logging_2.12-1.9.4.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/run_2.12-1.9.4.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/shaded-scalajson_2.12-1.0.0-M4.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/zinc-persist_2.12-1.9.3.jar",
+            "/Users/fsznajderman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.4/shaded-apache-httpasyncclient-0.7.0.jar"
+        ],
+        "out": "/Users/fsznajderman/dev/projects/UTubeTracker/project/.bloop/utubetracker-build",
+        "classesDir": "/Users/fsznajderman/dev/projects/UTubeTracker/project/.bloop/utubetracker-build/scala-2.12/sbt-1.0/classes",
+        "resources": [
+            "/Users/fsznajderman/dev/projects/UTubeTracker/project/src/main/resources",
+            "/Users/fsznajderman/dev/projects/UTubeTracker/project/target/scala-2.12/sbt-1.0/resource_managed/main"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.12.18",
+            "options": [
+                "-deprecation",
+                "-Wconf:cat=unused-nowarn:s",
+                "-Wconf:cat=unused-nowarn:s",
+                "-Xsource:3"
+            ],
+            "jars": [
+                "/Users/fsznajderman/.sbt/boot/scala-2.12.18/lib/scala-library.jar",
+                "/Users/fsznajderman/.sbt/boot/scala-2.12.18/lib/scala-compiler.jar",
+                "/Users/fsznajderman/.sbt/boot/scala-2.12.18/lib/scala-reflect.jar",
+                "/Users/fsznajderman/.sbt/boot/scala-2.12.18/lib/scala-xml_2.12-2.1.0.jar"
+            ],
+            "analysis": "/Users/fsznajderman/dev/projects/UTubeTracker/project/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.12.zip",
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "sbt": {
+            "sbtVersion": "1.9.4",
+            "autoImports": [
+                "import _root_.scala.xml.{TopScope=>$scope}",
+                "import _root_.sbt._",
+                "import _root_.sbt.Keys._",
+                "import _root_.sbt.nio.Keys._",
+                "import _root_.sbt.ScriptedPlugin.autoImport._, _root_.sbt.plugins.JUnitXmlReportPlugin.autoImport._, _root_.sbt.plugins.MiniDependencyTreePlugin.autoImport._, _root_.com.orrsella.sbtstats.StatsPlugin.autoImport._, _root_.bloop.integrations.sbt.BloopPlugin.autoImport._",
+                "import _root_.sbt.plugins.IvyPlugin, _root_.sbt.plugins.JvmPlugin, _root_.sbt.plugins.CorePlugin, _root_.sbt.ScriptedPlugin, _root_.sbt.plugins.SbtPlugin, _root_.sbt.plugins.SemanticdbPlugin, _root_.sbt.plugins.JUnitXmlReportPlugin, _root_.sbt.plugins.Giter8TemplatePlugin, _root_.sbt.plugins.MiniDependencyTreePlugin, _root_.com.orrsella.sbtstats.StatsPlugin, _root_.bloop.integrations.sbt.BloopPlugin"
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "zio.test.sbt.ZTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "weaver.framework.CatsEffect"
+                    ]
+                },
+                {
+                    "names": [
+                        "hedgehog.sbt.Framework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/Library/Java/JavaVirtualMachines/jdk1.8.0_141.jdk/Contents/Home/jre",
+                "options": [
+                    "-Duser.dir=/Users/fsznajderman/dev/projects/UTubeTracker/project"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "com.orrsella",
+                    "name": "sbt-stats",
+                    "version": "1.0.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "sbt-stats",
+                            "path": "/Users/fsznajderman/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/orrsella/sbt-stats_2.12_1.0/1.0.7/sbt-stats-1.0.7.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "ch.epfl.scala",
+                    "name": "sbt-bloop",
+                    "version": "1.4.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "sbt-bloop",
+                            "path": "/Users/fsznajderman/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.4.1/sbt-bloop-1.4.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.java.dev.jna",
+                    "name": "jna",
+                    "version": "4.5.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jna",
+                            "path": "/Users/fsznajderman/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/4.5.0/jna-4.5.0.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.java.dev.jna",
+                    "name": "jna-platform",
+                    "version": "4.5.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jna-platform",
+                            "path": "/Users/fsznajderman/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna-platform/4.5.0/jna-platform-4.5.0.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.code.gson",
+                    "name": "gson",
+                    "version": "2.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "gson",
+                            "path": "/Users/fsznajderman/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/code/gson/gson/2.7/gson-2.7.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.code.findbugs",
+                    "name": "jsr305",
+                    "version": "3.0.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jsr305",
+                            "path": "/Users/fsznajderman/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.18",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/fsznajderman/.sbt/boot/scala-2.12.18/lib/scala-library.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-compiler",
+                    "version": "2.12.18",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-compiler",
+                            "path": "/Users/fsznajderman/.sbt/boot/scala-2.12.18/lib/scala-compiler.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-compiler",
+                    "version": "2.12.18",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-compiler",
+                            "path": "/Users/fsznajderman/.sbt/boot/scala-2.12.18/lib/scala-compiler.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.18",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/fsznajderman/.sbt/boot/scala-2.12.18/lib/scala-library.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-reflect",
+                    "version": "2.12.18",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "path": "/Users/fsznajderman/.sbt/boot/scala-2.12.18/lib/scala-reflect.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}
