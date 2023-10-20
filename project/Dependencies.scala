@@ -47,19 +47,14 @@ object Dependencies {
   lazy val zio = Seq(
     "dev.zio" %% "zio" % zioVersion,
     "dev.zio" %% "zio-test" % zioVersion % "test,it",
-    "dev.zio" %% "zio-test-sbt" % zioVersion % "test,it"
+    "dev.zio" %% "zio-test-sbt" % zioVersion % "test,it",
+  "dev.zio" %% "zio-logging" % zioLoggingVersion,
+    "dev.zio" %% "zio-logging-slf4j" % zioLoggingVersion,
+    "dev.zio" %% "zio-interop-cats" % `zio-interop`
   )
-  lazy val zioLogging = "dev.zio" %% "zio-logging" % zioLoggingVersion
-  lazy val zioLoggingSlf4j = "dev.zio" %% "zio-logging-slf4j" % zioLoggingVersion
-  lazy val http4sBlazeServer =
-    "org.http4s" %% "http4s-blaze-server" % Http4sBlazeVersion
-  lazy val http4sBlazeClient =
-    "org.http4s" %% "http4s-blaze-client" % Http4sBlazeVersion
-  lazy val http4sDsl = "org.http4s" %% "http4s-dsl" % Http4sVersion
-  lazy val http4sCircle = "org.http4s" %% "http4s-circe" % Http4sVersion
-  lazy val `zio-interop-cats` = "dev.zio" %% "zio-interop-cats" % `zio-interop`
+
   lazy val logback = "ch.qos.logback" % "logback-classic" % "1.2.3"
-  lazy val pureConfig = "com.github.pureconfig" %% "pureconfig" % "0.14.1"
+  lazy val pureConfig = "com.github.pureconfig" % "pureconfig" % "0.17.1"
 
   lazy val sttp = Seq(
     "com.softwaremill.sttp.client3" %% "cats" % sttpVersion,

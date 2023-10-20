@@ -7,5 +7,8 @@ ThisBuild / scalaVersion := "3.3.1"
 
 lazy val utubetracker = (project in file("."))
   .settings(
-    libraryDependencies ++= zio
+    libraryDependencies ++= zio,
+    libraryDependencies ++= sttp,
+    libraryDependencies += pureConfig
+
   )
